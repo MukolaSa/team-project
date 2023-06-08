@@ -1,0 +1,118 @@
+body {
+    color: #FFFFFF;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: rgba(0, 0, 0, 0.626); */
+    /* background: rgb(9,32,146);
+    background: linear-gradient(90deg, rgba(9,32,146,1) 39%, rgba(188,6,229,1) 100%, rgba(231,0,255,0) 100%); */
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(147, 147, 147, 1);
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 300px;
+    /* height: auto; */
+    /* width: 100%; */
+}
+h1,
+h2,
+h3,
+ul,
+p{
+    margin: 0;
+    padding: 0;
+}
+
+[class*="container"] {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+    max-width: 1250px;
+    margin: 0px auto;
+    padding: 0 15px;
+    /* background-color: #000000; */
+    height: 100vh;
+    border-radius: 30px;
+}
+
+
+h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #DC56C5;
+}
+
+.container .cards-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem;
+    display: flex;
+}
+
+.cards-box img {
+    width: 100%;
+}
+
+.cards-box .portfolio-player {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.4rem;
+}
+
+.portfolio-player h4 {
+    font-size: 1.5rem;
+}
+
+.portfolio-player p {
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+}
+
+.portfolio-player a {
+    display: inline-flex;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.portfolio-player a img {
+
+}
+
+.cards-box {
+    margin-top: 63px;
+}
