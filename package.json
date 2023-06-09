@@ -1,0 +1,24 @@
+{
+  "name": "team-project",
+  "version": "1.0.0",
+  "description": "<style>\r     .container {\r       display: flex;\r       justify-content: center;\r       align-items: center;\r       height: 100vh;\r     }",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukolaSa/team-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MukolaSa/team-project/issues"
+  },
+  "homepage": "https://github.com/MukolaSa/team-project#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}
